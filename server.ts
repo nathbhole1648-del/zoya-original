@@ -17,7 +17,7 @@ process.on("unhandledRejection", (reason: any) => {
   console.warn("[Server] Handled unhandled rejection:", reason?.message || String(reason));
 });
 
-const PORT = 3000;
+const PORT = Number(process.env.PORT) || 3000;
 const app = express();
 const server = http.createServer(app);
 
