@@ -1,0 +1,10 @@
+{
+  "name": "Zoya AI Voice Assistant",
+  "description": "A real-time, voice-to-voice AI assistant with a sassy, confident, and witty personality, built using React and the Gemini Live API.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera",
+    "geolocation"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
